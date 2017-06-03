@@ -1,0 +1,48 @@
+<fieldset>
+    <legend>
+        <!--{{vm.title}}-->
+        Shipping
+    </legend>
+    <form class="form-horizontal" id="searchScheduleForm" name="searchScheduleForm" role="form">
+        <div class="form-group">
+            <label class="col-md-1 control-label">Schedule#</label>
+            <div class="col-md-4">
+                <div class="input-group ">
+                    <input type="text" class="form-control" name="scheduleNumber" id="scheduleNumber" event-focus="scheduleNumber" event-focus-id="scheduleNumber"
+                        placeholder="Schedule #" autocomplete="off" autofocus />
+                    <div class="input-group-btn">
+                        <input type="submit" class="btn btn-primary" value="FIND" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form class="form-horizontal" id="searchPoForm" name="searchPoForm" role="form">
+        <div class="form-group">
+            <label class="col-md-1 control-label">Po #</label>
+            <div class="col-md-4">
+                <div class="input-group ">
+                    <input type="text" class="form-control" name="poNumber" id="poNumber" event-focus="poNumber" event-focus-id="poNumber" placeholder="PO #"
+                        autocomplete="off" autofocus required />
+                    <div class="input-group-btn">
+                        <input type="submit" class="btn btn-primary" value="FIND" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <form class="form-horizontal" id="searchOrderForm" name="searchOrderForm" role="form">
+        <div class="form-group">
+            <label class="col-md-1 control-label">Order#</label>
+            <div class="col-md-4">
+                <div class="input-group ">
+                    <input type="text" class="form-control" name="orderNumber" id="orderNumber" event-focus="orderNumber" event-focus-id="orderNumber"
+                        placeholder="Order #" autocomplete="off" autofocus required />
+                    <div class="input-group-btn">
+                        <input type="submit" class="btn btn-primary" value="FIND" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</fieldset>

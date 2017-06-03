@@ -1,0 +1,17 @@
+.txtshipping {
+    height: 39px;
+    padding: 8px 12px;
+    font-size: 9px;
+    line-height: 1.4;
+    color: #6f6f6f;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    width: 80px;
+}
+
+.btncustom {
+    padding: 3px 3px 3px 5px;
+    margin-top: 13px;
+    font-size: 13px;
+}
